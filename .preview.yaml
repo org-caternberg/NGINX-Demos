@@ -1,0 +1,7 @@
+apiVersion: 1.0.0
+previews:
+  - name: default
+    container:
+      image: index.docker.io/caternberg/nginx-hello:${{env.commit.sha}}
+      port: 55000
+
