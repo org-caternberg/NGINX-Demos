@@ -45,7 +45,7 @@ spec:
             steps {
                 container(name: 'kaniko', shell: '/busybox/sh') {
                     sh '''#!/busybox/sh
-                    /kaniko/executor -f `pwd`/nginx-hello/Dockerfile -c `pwd`/nginx-hello --cache=true --destination=${REGISTRY}/${REPOSITORY}/${IMAGE}
+                    /kaniko/executor -f `pwd`/Dockerfile -c `pwd`/nginx-hello --cache=true --destination=${REGISTRY}/${REPOSITORY}/${IMAGE}
                     '''
                 }
             }
