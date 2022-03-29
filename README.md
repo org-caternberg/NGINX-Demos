@@ -68,3 +68,4 @@ Most of the Demos have been configured to utilize Vagrant and Ansible to enable 
        ```$ git clone git@github.com:nginxinc/NGINX-Demos.git```
 
 1. Copy ```nginx-repo.key``` and ```nginx-repo.crt``` files for your account to ```~/NGINX-Demos/autoscaling-demo/ansible/files/```
+
