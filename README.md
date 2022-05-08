@@ -69,3 +69,5 @@ Most of the Demos have been configured to utilize Vagrant and Ansible to enable 
 
 1. Copy ```nginx-repo.key``` and ```nginx-repo.crt``` files for your account to ```~/NGINX-Demos/autoscaling-demo/ansible/files/```
 
+
+
